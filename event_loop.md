@@ -186,6 +186,8 @@ Loupe интерактивный - попробуйте ввести какой-
 
 ![Визуализатор Loupe](https://user-images.githubusercontent.com/64750426/205178536-c17a0a19-5b51-48dc-9944-b4665ce80d2e.jpg)
 
+Кроме того, не будет лишним ознакомиться с описанием Event Loop в **[официальной документации](https://developer.mozilla.org/ru/docs/Web/JavaScript/EventLoop)** на MDN Web Docs.   
+
 ## Выводы
 
 Текст вывода
