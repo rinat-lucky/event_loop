@@ -1,10 +1,9 @@
 ---
 title: Концепция Event Loop в языке JavaScript
 description: Основы механизма Event Loop в языке программирования JavaScript
+image: "https://hsto.org/r/w1560/getpro/habr/upload_files/a05/8ff/096/a058ff096a74d751145897753515fb0c.png"
 author: Ринат Камалитдинов
 ---
-
-# Концепция Event Loop в языке JavaScript
 
 Цикл событий (event loop) — это ключ к асинхронному программированию на JavaScript. Сам по себе JavaScript однопоточный, но использование механизма event loop позволяет создать дополнительные потоки, чтобы код работал быстрее. В этом гайде мы разберемся, как устроен стек вызовов и как он связан с циклом событий.
 
