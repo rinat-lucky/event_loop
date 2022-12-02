@@ -25,13 +25,13 @@ author: Ринат Камалитдинов
 Рассмотрим пример работы асинхронного кода.
 
 ```js
-function main() {
+const main = () => {
   setTimeout(function greet() {
-    console.log('Hello!')
-  }, 2000)
+    console.log('Hello!');
+  }, 2000);
 
-  console.log('Bye!')
-}
+  console.log('Bye!');
+};
 
 main()
 ```
@@ -102,13 +102,13 @@ greet();
 Именно цикл событий ответственен за то, что `setTimeout()` пропал из стека в прошлом примере. Чтобы увидеть картину целиком, давайте включим в нашу схему все недостающие части. Возьмём тот же самый пример:
 
 ```js
-function main() {
+const main = () => {
   setTimeout(function greet() {
-    console.log('Hello!')
-  }, 2000)
+    console.log('Hello!');
+  }, 2000);
 
-  console.log('Bye!')
-}
+  console.log('Bye!');
+};
 
 main()
 ```
